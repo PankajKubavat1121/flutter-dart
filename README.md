@@ -1,51 +1,85 @@
-# 🚀 Flutter Dart Learning
+# Dart Complete Guide
 
-A complete Dart learning repository from Beginner to Advanced.
+A complete and structured Dart learning repository designed for beginners to advanced developers.
 
 ---
 
-# 📚 Repository Structure
+## 🎯 Goal
+
+This repository is created to master the Dart programming language from basic to advanced concepts with:
+
+- Theory
+- Practical Examples
+- Practice Questions
+- Assignments
+- Interview Questions
+- Mini Projects
+- Best Practices
+- Revision Notes
+
+---
+
+## 📂 Repository Structure
 
 ```text
 flutter-dart/
 │
-├── notes/
-├── examples/
-├── practice/
+├── assets/
+│   ├── diagrams/
+│   └── images/
+│
 ├── assignments/
+├── docs/
+├── examples/
 ├── interview_questions/
+├── notes/
+├── practice/
+├── resources/
 ├── revision/
-└── resources/
+│
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── INDEX.md
+├── LICENSE
+├── README.md
+└── ROADMAP.md
 ```
 
 ---
 
-# 🎯 Learning Roadmap
+## 📚 Learning Method
 
-- Dart Basics
-- Object Oriented Programming
-- Collections
-- Async Programming
-- Generics
-- Mixins
-- Extensions
-- Exception Handling
-- Packages
-
----
-
-# 📖 Learning Method
-
-Each topic contains:
+Every topic will include:
 
 - Notes
 - Examples
 - Practice
 - Assignments
 - Interview Questions
+- Mini Project
+- Revision
 
 ---
 
-# 👨‍💻 Author
+## 🚀 Progress
+
+- [ ] Repository Setup
+- [ ] Dart Fundamentals
+- [ ] Object-Oriented Programming
+- [ ] Asynchronous Programming
+- [ ] Advanced Dart
+- [ ] Best Practices
+- [ ] Testing
+- [ ] Mini Projects
+
+---
+
+## 👨‍💻 Author
 
 **Pankaj Kubavat**
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
