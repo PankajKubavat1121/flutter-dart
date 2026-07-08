@@ -1,55 +1,133 @@
-# Introduction to Dart
+# 01 - Introduction
 
----
+## Topics
 
-## What is Dart?
+- [x] 01 History of Dart
+- [x] 02 Why Dart
+- [x] 03 Features of Dart
+- [ ] 04 Dart vs Other Languages
+- [ ] 05 SDK Installation
+- [ ] 06 IDE Setup
+- [ ] 07 First Program
+- [ ] 08 How Dart Works
+- [ ] 09 JIT vs AOT
+- [ ] 10 Summary
 
-Dart is an open-source, object-oriented, class-based programming language developed by Google.
 
-It is designed for building fast, scalable, and cross-platform applications.
 
-Dart is mainly used with the Flutter framework to develop Android, iOS, Web, Desktop, and Embedded applications from a single codebase.
+# Dart Introduction
 
----
+## Learning Checklist
 
-## Key Points
+✅ 01. History of Dart
 
 - Developed by Google
-- Open Source
-- Object-Oriented
-- Class-Based
-- Statically Typed
-- Garbage Collected
+- First Released in 2011
+- Mainly used with Flutter
+
+------------------------------------------------
+
+✅ 02. Why Dart?
+
+- Easy to Learn
+- Fast
 - Cross Platform
-- JIT and AOT Compilation
-- Sound Null Safety
-- Excellent Performance
+- Null Safety
+- Hot Reload
 
----
+------------------------------------------------
 
-## Main Purpose
+✅ 03. Features
 
-Dart was created to make application development faster, easier, and more productive.
+- Object-Oriented
+- Strongly Typed
+- Garbage Collection
+- Async Support
+- Rich Standard Library
 
----
+------------------------------------------------
 
-## Where is Dart Used?
+✅ 04. Dart vs Other Languages
 
-- Flutter Mobile Apps
-- Flutter Web
-- Flutter Desktop
-- Backend Development
-- Command Line Applications
-- Embedded Systems
+- Dart → Flutter
+- Java → Android / Backend
+- Kotlin → Android
+- Swift → iOS
+- Python → AI / ML
+- JavaScript → Web
 
----
+------------------------------------------------
 
-## Current Version
+✅ 05. SDK
 
-Always use the latest stable version from the official Dart website.
+SDK = Software Development Kit
 
----
+Contains
 
-## Summary
+- Compiler
+- Libraries
+- Tools
 
-Dart is Google's modern programming language used for developing fast, secure, scalable, and cross-platform applications.
+Flutter SDK already includes Dart SDK.
+
+------------------------------------------------
+
+✅ 06. IDE
+
+Recommended IDE
+
+- Android Studio ✅
+- VS Code
+
+Required Plugin
+
+- Flutter Plugin
+- Dart Plugin
+
+------------------------------------------------
+
+✅ 07. First Program
+
+Every Dart program starts from
+
+main()
+
+Output
+
+print()
+
+------------------------------------------------
+
+✅ 08. How Dart Works
+
+Write Code
+
+↓
+
+Compiler
+
+↓
+
+Machine Code
+
+↓
+
+Output
+
+------------------------------------------------
+
+✅ 09. JIT vs AOT
+
+JIT
+
+- Development
+- Hot Reload
+
+AOT
+
+- Release
+- Better Performance
+
+------------------------------------------------
+
+🎉 Dart Introduction Completed.
