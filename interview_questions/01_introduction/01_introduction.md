@@ -136,3 +136,56 @@ Answer: AOT.
 Q7. Which compilation mode is used when building an APK?
 
 Answer: AOT.
+
+
+Q1. Who developed Dart?
+
+Answer:
+Google developed Dart.
+
+Q2. When was Dart first released?
+
+Answer:
+2011.
+
+Q3. Why is Dart used with Flutter?
+
+Answer:
+Because it provides excellent performance, Hot Reload, Null Safety, and cross-platform development.
+
+Q4. What is SDK?
+
+Answer:
+SDK stands for Software Development Kit. It contains the tools, compiler, and libraries required for application development.
+
+Q5. What is IDE?
+
+Answer:
+IDE stands for Integrated Development Environment. It is used to write, run, debug, and manage code.
+
+Q6. Which function is the entry point of a Dart program?
+
+Answer:
+main().
+
+Q7. What is the purpose of print()?
+
+Answer:
+print() is used to display output on the console.
+
+Q8. What is JIT?
+
+Answer:
+Just-In-Time compilation is used during development and supports Hot Reload.
+
+Q9. What is AOT?
+
+Answer:
+Ahead-Of-Time compilation is used for release builds and provides better performance.
+
+Q10. What is the difference between main() and runApp()?
+
+Answer:
+
+main() starts the Dart program.
+runApp() starts the Flutter UI by attaching the root widget.
