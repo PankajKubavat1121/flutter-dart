@@ -15,8 +15,6 @@
 // Q5
 // Change your city and print it again.
 
-
-
 void main01() {
   String name = "Pankaj";
   int age = 28;
@@ -26,8 +24,6 @@ void main01() {
   print(age);
   print(city);
 }
-
-
 
 // -------------------------
 // Topic 02 : Why Variables
@@ -49,7 +45,6 @@ void main01() {
 // Q5
 // Create a variable for your favorite cricket player
 // Print it twice
-
 
 void main02() {
   String company = "Js spark";
@@ -98,8 +93,6 @@ void main03() {
   print(isDeveloper);
 }
 
-
-
 // -------------------------
 // Topic 04 : Variable Naming Rules
 // -------------------------
@@ -119,7 +112,6 @@ void main03() {
 // Q5
 // Print all variables.
 
-
 void main04() {
   String firstName = "Pankaj";
   String lastName = "Kubavat";
@@ -130,4 +122,144 @@ void main04() {
   print(lastName);
   print(mobileNumber);
   print(currentSalary);
+}
+
+// -------------------------
+// Topic 05 : var Keyword
+// -------------------------
+
+// Q1
+// Create a variable using var for your name.
+
+// Q2
+// Create a variable using var for your age.
+
+// Q3
+// Create a variable using var for your city.
+
+// Q4
+// Print all variables.
+
+// Q5
+// Change the city name and print it again.
+
+void main5() {
+  var name = "Pankaj";
+  var age = 28;
+  var city = "Rajkot";
+
+  print(name);
+  print(age);
+  print(city);
+
+  city = "junagadh";
+
+  print(city);
+}
+
+// -------------------------
+// Topic 06 : Data Types
+// -------------------------
+
+// Q1
+// Create a String variable for your name.
+
+// Q2
+// Create an int variable for your age.
+
+// Q3
+// Create a double variable for your salary.
+
+// Q4
+// Create a bool variable for isFlutterDeveloper.
+
+// Q5
+// Create a List of your favorite programming languages.
+
+// Q6
+// Print all values.
+
+void main6() {
+  String name = "Pankaj";
+  int age = 28;
+  double salary = 40000;
+  bool isFlutterDeveloper = true;
+  List<String> cities = ['C', 'C++', 'JAVA', 'Flutter', 'kotlin', 'python'];
+
+  print(name);
+  print(age);
+  print(salary);
+  print(isFlutterDeveloper);
+  print(cities);
+}
+
+// -------------------------
+// Topic 07 : dynamic
+// -------------------------
+
+// Q1
+// Create a dynamic variable and store your name.
+
+// Q2
+// Change it to your age.
+
+// Q3
+// Change it to true.
+
+// Q4
+// Change it to salary.
+
+// Q5
+// Print after every change.
+
+void main7() {
+  dynamic value = "Pankaj";
+
+  print(value);
+
+  value = 28;
+  print(value);
+
+  value = true;
+  print(value);
+
+  value = 40000;
+  print(value);
+}
+
+
+// -------------------------
+// Topic 08 : Object
+// -------------------------
+
+// Q1
+// Create an Object variable and store your name.
+
+// Q2
+// Change it to your age.
+
+// Q3
+// Change it to true.
+
+// Q4
+// Use 'is' to check whether the value is a bool.
+
+// Q5
+// Print all values.
+
+
+void main8() {
+  Object value = "Pankaj";
+  print(value);
+
+  value = 28;
+  print(value);
+
+  value = true;
+  if (value is bool) {
+    print(value);
+  }
+
+  print(value);
+
 }
