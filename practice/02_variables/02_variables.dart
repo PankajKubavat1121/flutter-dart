@@ -227,7 +227,6 @@ void main7() {
   print(value);
 }
 
-
 // -------------------------
 // Topic 08 : Object
 // -------------------------
@@ -247,7 +246,6 @@ void main7() {
 // Q5
 // Print all values.
 
-
 void main8() {
   Object value = "Pankaj";
   print(value);
@@ -261,5 +259,65 @@ void main8() {
   }
 
   print(value);
+}
 
+// -------------------------
+// Topic 09 : late
+// -------------------------
+
+// Q1
+// Create a late String variable called company.
+
+// Q2
+// Assign your company name.
+
+// Q3
+// Print it.
+
+// Q4
+// Create a late int variable called experience.
+
+// Q5
+// Assign your experience and print it.
+
+late String company;
+late int experience;
+
+void main9() {
+  company = "darshavi infotech";
+  experience = 5;
+
+  print(company);
+  print(experience);
+}
+
+// -------------------------
+// Topic 10 : final
+// -------------------------
+
+// Q1
+// Create a final variable for your name.
+
+// Q2
+// Create a final variable for your age.
+
+// Q3
+// Print both values.
+
+// Q4
+// Create a final variable using DateTime.now().
+
+// Q5
+// Print it.
+
+void main10() {
+  final name = "Pankaj";
+  final age = 28;
+  final dateTime = DateTime.now();
+
+  print(name);
+
+  print(age);
+
+  print(dateTime);
 }

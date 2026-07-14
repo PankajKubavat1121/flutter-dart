@@ -282,3 +282,77 @@ Q41. What is the purpose of the as operator?
 Answer:
 
 The as operator is used to cast an object to a specific type.
+
+Q42. What is late in Dart?
+
+Answer:
+
+late tells Dart that a non-nullable variable will be initialized before it is used.
+
+Q43. Why do we use late?
+
+Answer:
+
+To delay initialization while keeping the variable non-nullable.
+
+Q44. What happens if a late variable is accessed before initialization?
+
+Answer:
+
+A LateInitializationError is thrown at runtime.
+
+Q45. What is late final?
+
+Answer:
+
+A variable that is initialized later but can only be assigned once.
+
+Q46. Where is late commonly used in Flutter?
+
+Answer:
+
+TextEditingController
+AnimationController
+ScrollController
+FocusNode
+PageController
+TabController
+
+Q47. What is final?
+
+Answer:
+
+final is used to declare a variable that can be assigned only once.
+
+Q48. Can we change the value of a final variable?
+
+Answer:
+
+No. Once assigned, it cannot be reassigned.
+
+Q49. When is a final variable initialized?
+
+Answer:
+
+A final variable can be initialized at runtime or at declaration, but only once.
+
+Q50. Can we use final with DateTime.now()?
+
+Answer:
+
+Yes.
+
+final now = DateTime.now();
+
+Because the value is available at runtime.
+
+Q51. Where is final commonly used in Flutter?
+
+Answer:
+
+TextEditingController
+GlobalKey
+Repository Objects
+Services
+Dependency Injection
+Model Fields
